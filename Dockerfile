@@ -10,4 +10,4 @@ RUN mv ./filebeat-6.7.1-linux-x86_64 /etc/filebeat
 
 COPY filebeat.yml /etc/filebeat/filebeat.yml
 
-CMD ./etc/filebeat/filebeat -e -c /etc/filebeat/filebeat.yml
+#CMD ./etc/filebeat/filebeat -e -c /etc/filebeat/filebeat.yml
